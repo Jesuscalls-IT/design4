@@ -1,0 +1,272 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c2063;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-bar ul li {
+    margin: 0 15px;
+  }
+  
+  .cta {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cta span {
+    margin-right: 10px;
+  }
+  
+  .cta button {
+    background-color: #f4b400;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Main Section
+  .main-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-section h1 {
+    color: #5c2063;
+  }
+  
+  .main-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Mission Section 
+  .mission-section {
+    padding: 20px;
+  }
+  
+  .mission-details h3 {
+    color: #5c2063;
+  } */
+  
+  .footer {
+    background-color: #6C246E; /* Indigo background */
+    color: #F5F5F5; /* Light grey text */
+    padding: 20px 20px; /* Reduced vertical padding */
+   /* border-top: 5px solid #FFD700; /* Gold border */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-left {
+    flex: 2;
+  }
+  
+  .footer-left h1 {
+    font-size: 2em; /* Smaller header size */
+    margin-bottom: 5px; /* Reduced margin */
+  }
+  
+  .footer-left p {
+    line-height: 1.4; /* Reduced line height for smaller text */
+    font-size: 0.9em; /* Smaller text size */
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-right h2 {
+    font-size: 1.5em; /* Smaller section header size */
+    margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .contact-info p {
+    margin: 5px 0; /* Slightly reduced margin */
+    font-size: 0.85em; /* Smaller text size for contact info */
+  }
+  
+  .phone {
+    font-weight: bold;
+    color: #FFD700; /* Gold color for phone numbers */
+  }
+  
+  .email {
+    color: #F5F5F5;
+    text-decoration: none;
+    border-bottom: 1px solid transparent; /* Underline effect on hover */
+    transition: border-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .email:hover {
+    border-color: #FFD700; /* Change underline color on hover */
+  }
+  
+  /* New styles for the contact details section */
+  .footer-contact {
+    display: flex;
+    justify-content: center; /* Centering the contact details */
+    margin-top: 15px; /* Space between sections */
+  }
+  
+  .footer-address {
+    text-align: right; /* Aligning address to the right */
+    margin-right: 20px; /* Spacing on the right */
+  }
+  
+  .footer-email {
+    text-align: left; /* Aligning email to the left */
+    margin-left: 20px; /* Spacing on the left */
+  }
+  
+  /* paul */
+  .dr-paul-section {
+    padding: 20px;
+  }
+  
+  .dr-paul-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .dr-paul-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .dr-paul-content {
+    max-width: 600px;
+  }
+  
+  .dr-paul-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .dr-paul-content h1 {
+    color: #5c2063;
+  }
+    
+
+  /* main section */
+ /* Main container styles */
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title styling */
+.title {
+  font-size: 36px;
+  color: #800080;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Content layout: Text on the left, Image on the right */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px; /* Space between text and image */
+}
+
+/* Text section: Left side */
+.text-section {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* Paragraphs inside text section */
+.text-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Image section: Right side */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image-section img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
+}
+
+/* dr.paul social */
+.social-media-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media-links li {
+  margin-bottom: 10px;
+}
+
+.social-media-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  text-decoration: underline;
+}

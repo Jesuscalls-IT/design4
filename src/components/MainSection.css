@@ -1,0 +1,114 @@
+/* Container for the whole section */
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  text-align:'justify'
+}
+
+/* Main title styling */
+.main-title {
+  color: #800080; /* Dark purple */
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: 'justify';
+}
+
+/* Flexbox for content layout */
+.content-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Left image section */
+.image-selection {
+  flex: 1;
+  max-width: 400px;
+}
+
+.image-selection img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Right text section */
+.text-selection {
+  flex: 2;
+}
+
+.subtitle {
+  font-size: 28px;
+  color: #800080; /* Dark purple */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+p {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Italic text for emphasis */
+.italic-text {
+  font-style: italic;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Mission and vision section */
+.mission-section {
+  margin-top: 40px;
+}
+
+.mission-section h2 {
+  font-size: 26px;
+  color: #800080;
+  margin-bottom: 20px;
+}
+
+.mission-section h3 {
+  font-size: 22px;
+  color: #800080;
+  margin-bottom: 10px;
+}
+
+.mission-section p {
+  margin-bottom: 20px;
+}
+
+/* History section */
+.history-section {
+  margin-top: 30px;
+}
+
+.history-section h3 {
+  font-size: 22px;
+  color: #800080;
+  margin-bottom: 10px;
+}
+
+.history-section p {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-section {
+    flex-direction: column;
+  }
+  
+  .image-selection {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .mission-section {
+    padding: 0 15px;
+  }
+}
